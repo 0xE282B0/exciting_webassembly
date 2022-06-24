@@ -1,0 +1,1 @@
+emcc helloworld.cpp -s STANDALONE_WASM -o hello_CPP.wasm

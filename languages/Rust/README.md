@@ -1,0 +1,1 @@
+rustc --target wasm32-wasi helloworld.rs -o hello_rust.wasm

@@ -1,0 +1,3 @@
+FROM renefonseca/wasmtime:latest
+COPY hello_rust.wasm /wasm/
+ENTRYPOINT wasmtime /wasm/hello_rust.wasm

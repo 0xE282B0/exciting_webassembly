@@ -1,0 +1,1 @@
+tinygo build -o hello_go.wasm -target wasi ./helloworld.go

@@ -1,0 +1,3 @@
+FROM scratch
+COPY hello_rust.wasm /wasm/
+CMD /wasm/hello_rust.wasm
